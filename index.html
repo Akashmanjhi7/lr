@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Fitness GYM</title>
+    <link rel="shortcut icon" href="images/lokesh.png" type="image/x-icon">
+
+  
+</head>
+<body>
+     <!-- header -->
+     <header>
+        <!-- Navbar -->
+        <nav class="bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-600">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <!-- logo -->
+                <a href="/index.html" class="flex items-center space-x-3">
+                    <img src="/images/lokesh.png" class="h-8" alt="Fitness GYM Logo">
+                </a>
+                <!-- menu icon -->
+                <div class="flex md:hidden space-x-3">
+                    <button id="menu-toggle" class="p-2 w-10 h-10 inline-flex items-center justify-center text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                        <span class="sr-only">Open main menu</span>
+                        <img src="/images/svg/menu.svg" alt="menu" class="w-6 h-6">
+                    </button>
+                </div>
+                <!-- routes -->
+                <div class="hidden w-full md:flex md:w-auto md:order-1" id="navbar">
+                    <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium flex items-center rounded-lg  md:flex-row md:space-x-8 md:mt-0 bg-gray-900">
+                        <li>
+                            <a href="./index.html" class="block py-2 px-3 text-white md:bg-transparent md:text-blue-700" aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="./about.html" class="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:text-white md:p-0">About</a>
+                        </li>
+                        <li>
+                            <a href="./client.html" class="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:text-white md:p-0">Clients</a>
+                        </li>
+                        <li>
+                            <a href="./diet.html" class="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:text-white md:p-0">Diet</a>
+                        </li>
+                        <li>
+                            <a href="./training.html" class="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:text-white md:p-0">Training</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html" class="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:text-white md:p-0">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> 
+
+    <!-- main -->
+    <main>
+        <!-- home -->
+        <section class="hero relative" id="home">
+            <div class="absolute "></div>
+            <div class="relative mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+                <div class="max-w-xl text-center sm:text-left">
+                    <h1 class="text-3xl font-extrabold text-white sm:text-5xl">
+                        Let us find your
+                        <strong class="block font-extrabold text-blue-700"> Beast Version. </strong>
+                    </h1>
+                    <p class="mt-4 max-w-lg text-white sm:text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!</p>
+                    <div class="mt-8 flex flex-wrap gap-4">
+                        <a href="/join.html" class="block w-full rounded bg-blue-700 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-800 sm:w-auto">Get Join</a>
+                        <a href="#" class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue-700 shadow hover:text-blue-800 sm:w-auto">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="/index.html" class="flex items-center">
+                        <img src="/images/lokesh.png" class="h-8" alt="Logo" />
+                        <span class="text-2xl font-semibold text-white">LR Supplements</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold uppercase text-white">Services</h2>
+                        <ul class="text-gray-500 font-medium">
+                            <li class="mb-4">
+                                <a href="/diet.html" class="hover:underline">Diet</a>
+                            </li>
+                            <li>
+                                <a href="/training.html" class="hover:underline">Training</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
+                        <ul class="text-gray-500 font-medium">
+                            <li class="mb-4">
+                                <a href="https://www.instagram.com/lr_supplements07/" target="_blank" class="hover:underline">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/@LokeshSinghRajputfitness" target="_blank" class="hover:underline">Youtube</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold uppercase text-white">Legal</h2>
+                        <ul class="text-gray-500 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline" target="_blank">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline" target="_blank">Terms & Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 dark:border-gray-700 lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm text-gray-500 dark:text-gray-400">© 2023 LR Supplements. All Rights Reserved.</span>
+                <div class="flex mt-4 sm:mt-0">
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        <span class="sr-only">Facebook page</span>
+                    </a>
+                    <a href="#" class="ml-5 text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
